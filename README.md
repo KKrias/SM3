@@ -19,16 +19,16 @@
   ABCDEFGH <- V(n)  
   输出256比特的杂凑值y = ABCDEF GH。
 ## 项目代码说明
-def zero_fill(a,n): #不够位数的在前面补零
-def cycle_shift_left( B, n): #循环左移
-def T(j):    #加密部件
-def FF(X,Y,Z,j):
-def GG(X,Y,Z,j):
-def P0(x):
-def P1(x):
-def Message_extension(a):  #a的数一定要满足512bit,不够要补零!!  ,承接的是字符串
-def CF(V,Bi):  #V是字符串
-def SM3(plaintext):#加密函数  
+def zero_fill(a,n): #不够位数的在前面补零  
+def cycle_shift_left( B, n): #循环左移  
+def T(j):    #加密部件  
+def FF(X,Y,Z,j):  
+def GG(X,Y,Z,j):  
+def P0(x):  
+def P1(x):  
+def Message_extension(a):  #a的数一定要满足512bit,不够要补零!!  ,承接的是字符串  
+def CF(V,Bi):  #V是字符串  
+def SM3(plaintext):#加密函数    
 ## 实验结果
 ![image](https://user-images.githubusercontent.com/105533242/181225201-82298f9a-57e8-481f-860d-3177c67ff171.png)
 ![image](https://user-images.githubusercontent.com/105533242/181225299-e20ff513-43d4-4b2e-96be-fc55ccef224a.png)
