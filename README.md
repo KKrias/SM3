@@ -17,7 +17,7 @@
 ![image](https://user-images.githubusercontent.com/105533242/181223608-bde414e0-69f7-45e3-8820-6d5c51cec5a9.png)
 ## 杂凑值
   ABCDEFGH <- V(n)  
-  输出256比特的杂凑值y = ABCDEF GH。
+  输出256比特的杂凑值y = ABCDEFGH。
 ## 项目代码说明
 def zero_fill(a,n): #不够位数的在前面补零  
 def cycle_shift_left( B, n): #循环左移  
